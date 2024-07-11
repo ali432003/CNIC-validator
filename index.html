@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="UTF8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNIC Location Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Markup Code Starts Here -->
+    <h1 class="main-heading">CNIC Validator</h1>
+    <div class="main-div">
+      <p>اب شناختی کارڈ نمبر سے مستقل پتا اور جنس معلوم کریں</p>
+      <p>اس کے لیے نمبر کو نیچے ڈبے میں لکھیں</p>
+      <input
+        id="cnic"
+        oninput="trackLocation()"
+        placeholder="Enter CNIC with dashes like 15602-7730609-7"
+        style="width: 330"
+      /><br />
+      <p id="error"></p>
+      <p id="warn"></p>
+      <p id="Location">Residence:</p>
+      <p id="Gender">Gender:</p>
+      <br />
+    </div>
+    <script src="./script.js"></script>
+  </body>
+  <!-- Markup Code End Here -->
+</html>

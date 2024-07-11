@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.main-heading {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-div {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.main-div p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.main-div input {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+
+.main-div input:hover {
+    border-color: #3b23c4;
+}
+
+.main-div input:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.main-div #error {
+    color: #ff4d4f;
+}
+
+.main-div #warn {
+    color: #ff4d4f;
+}
+
+.main-div #Location {
+    color: #3113d9;
+    font-weight: 700;
+}
+
+.main-div #Gender {
+    color: #3823f9;
+    font-weight: 700;
+}
+
+.main-div a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.main-div a:hover {
+    text-decoration: underline;
+}
