@@ -44,4 +44,4 @@ It is in pattern `ABCDE-FGHIJKL-M`
 # Tool
 I have created tiny javascript program. So no manuall work needed.
 Put cnic and that tool will find and show details (location and gender) itself.
-Please view: [CNIC Tracker](https://graysuit.github.io/cnic) .
+Please view: [CNIC Tracker](https://github.com/ali432003/CNIC-validator) .
